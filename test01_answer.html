@@ -25,7 +25,7 @@
       </a-assets>
 
       <!-- パーティクル（雨） -> （雪） -->
-      <a-entity particle-system="preset: snow; particleCount: 10000"></a-entity>
+      <a-entity particle-system="preset: rain; particleCount: 10000"></a-entity>
 
       <!-- パーティクル（紫） -->
       <a-entity
@@ -49,7 +49,7 @@
         position="-1 0.5 -3"
         material="color: #4CC3D9"
         outline
-
+        animation="property: rotation; to: 0 360 0; dur: 4000; loop: true; easing: linear"
       ></a-entity>
 
       <!-- 円柱（アウトライン付き） -->
